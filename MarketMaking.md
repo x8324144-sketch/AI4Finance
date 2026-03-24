@@ -2,7 +2,7 @@
 
 > A comprehensive collection of papers on market maker from top machine learning and AI conferences, plus arXiv preprints.
 
-**Total Papers: 30+** | **Conference & arXiv Coverage** | **Last Updated: March 2026**
+**Total Papers: 40+** | **Conference & arXiv Coverage** | **Last Updated: March 2026**
 
 ---
 
@@ -18,7 +18,8 @@
 8. [ACM ICAIF](#8-acm-icaif)
 9. [WWW / The Web Conference](#9-www--the-web-conference)
 10. [ACL / EMNLP](#10-acl--emnlp)
-11. [arXiv Preprints & Recent Works](#11-arxiv-preprints--recent-works)
+11. [Latest Research (2025-2026)](#11-latest-research-2025-2026)
+12. [arXiv Preprints & Classic Works](#12-arxiv-preprints--classic-works)
 
 ---
 
@@ -74,7 +75,8 @@
 
 | **Paper** | **Authors** | **Year** | **Link** | **Code** |
 |-----------|-------------|----------|---------|---------|
-| [Multiagent Reinforcement Learning for Liquidity Games](https://arxiv.org/abs/2601.00324) | Vidler, Alicia, Kaminka, Gal A. | 2026 | AAMAS | N/A |
+| [Multiagent Reinforcement Learning for Liquidity Games](https://arxiv.org/abs/2601.00324) | Alicia Vidler, Gal A. Kaminka | 2026 | AAMAS | N/A |
+| [Reinforcement Learning for Market Making in a Multi-agent Dealer Market](https://arxiv.org/abs/1911.05892) | Sumitra Ganesh, Nelson Vadori, Mengda Xu, Hua Zheng, Prashant Reddy, Manuela Veloso | 2020 | AAMAS | N/A |
 
 ---
 
@@ -82,10 +84,11 @@
 
 | **Paper** | **Authors** | **Year** | **Link** | **Code** |
 |-----------|-------------|----------|---------|---------|
-| [Deep Q-Learning Market Makers in a Multi-Agent Simulated Stock Market](https://dl.acm.org/doi/10.1145/3490354.3494448) | Vicente, Oscar Fernández, Rebollo, Fernando Fernández, Polo, Francisco Javier García | 2021 | ACM ICAIF | N/A |
-| [ARL-Based Multi-Action Market Making with Hawkes Processes and Variable Volatility](https://arxiv.org/abs/2508.16589) | Wang, Ziyi, Ventre, Carmine, Polukarov, Maria | 2025 | ACM ICAIF | N/A |
-| [Robust Market Making: To Quote, or not To Quote](https://arxiv.org/abs/2508.16588) | Wang, Ziyi, Ventre, Carmine, Polukarov, Maria | 2023 | ACM ICAIF | N/A |
-| [Can maker-taker fees prevent algorithmic cooperation in market making?](https://arxiv.org/abs/2211.00496) | Han, Bingyan | 2022 | ACM ICAIF | N/A |
+| [Deep Q-Learning Market Makers in a Multi-Agent Simulated Stock Market](https://dl.acm.org/doi/10.1145/3490354.3494448) | Oscar Fernández Vicente, Fernando Fernández Rebollo, Francisco Javier García Polo | 2021 | ACM ICAIF | N/A |
+| [Profit equitably: An investigation of market maker's impact on equitable outcomes](https://dl.acm.org/doi/10.1145/3490354.3494369) | Kshama Dwarakanath, Svitlana S. Vyetrenko, Tucker Balch | 2021 | ACM ICAIF | N/A |
+| [Can maker-taker fees prevent algorithmic cooperation in market making?](https://dl.acm.org/doi/10.1145/3533271.3561685) | Bingyan Han | 2022 | ACM ICAIF | N/A |
+| [Robust Market Making: To Quote, or not To Quote](https://dl.acm.org/doi/10.1145/3604237.3626858) | Ziyi Wang, Carmine Ventre, Maria Polukarov | 2023 | ACM ICAIF | N/A |
+| [ARL-Based Multi-Action Market Making with Hawkes Processes and Variable Volatility](https://arxiv.org/abs/2508.16589) | Ziyi Wang, Carmine Ventre, Maria Polukarov | 2025 | ACM ICAIF | N/A |
 
 ---
 
@@ -105,47 +108,65 @@
 
 ---
 
-## 11. arXiv Preprints & Recent Works
+## 11. Latest Research (2025-2026)
 
-### Traditional Market Maker
+### Traditional Market Maker (2025-2026)
+
+| **Paper** | **Authors** | **Year** | **Link** | **Notes** |
+|-----------|-------------|----------|---------|---------|
+| [Do designated market makers provide liquidity during downward extreme price movements?](https://arxiv.org/abs/2602.01817) | Mario Bellia, Kim Christensen, Aleksey Kolokolov, Loriana Pelizzon, Roberto Renò | 2026 | arXiv | Journal of Financial Markets |
+| [Learning Market Making with Closing Auctions](https://arxiv.org/abs/2601.17247) | Julius Graf, Thibaut Mastrolia | 2026 | arXiv | Deep Q-Learning |
+| [FX Market Making with Internal Liquidity](https://arxiv.org/abs/2512.04603) | Alexander Barzykin, Robert Boyce, Eyal Neuman | 2025 | arXiv | FX Markets |
+| [Option market making with hedging-induced market impact](https://arxiv.org/abs/2511.02518) | Paulin Aubert, Etienne Chevalier, Vathana Ly Vath | 2025 | arXiv | Option Market |
+| [Multi-Agent Reinforcement Learning for Market Making: Competition without Collusion](https://arxiv.org/abs/2510.25929) | Ziyi Wang, Carmine Ventre, Maria Polukarov | 2025 | arXiv | Multi-Agent RL |
+| [When AI Trading Agents Compete: Adverse Selection of Meta-Orders by RL-Based Market Making](https://arxiv.org/abs/2510.27334) | Ali Raza Jafree, Konark Jain, Nick Firoozye | 2025 | arXiv | Hawkes LOB Model |
+| [An Impulse Control Approach to Market Making in a Hawkes LOB Market](https://arxiv.org/abs/2510.26438) | Konark Jain, Nick Firoozye, Jonathan Kochems, Philip Treleaven | 2025 | arXiv | PPO with Self-Imitation |
+| [Reinforcement Learning-Based Market Making as a Stochastic Control on Non-Stationary LOB Dynamics](https://arxiv.org/abs/2509.12456) | Rafael Zimmer, Oswaldo Luiz do Valle Costa | 2025 | arXiv | PPO Algorithm |
+| [Market Making Strategies with Reinforcement Learning](https://arxiv.org/abs/2507.18680) | Óscar Fernández Vicente | 2025 | arXiv | PhD Thesis |
+| [To Hedge or Not to Hedge: Optimal Strategies for Stochastic Trade Flow Management](https://arxiv.org/abs/2503.02496) | Philippe Bergault, Olivier Guéant, Hamza Bodor | 2025 | arXiv | Almgren-Chriss Framework |
+
+### Automated Market Makers / DeFi (2025-2026)
+
+| **Paper** | **Authors** | **Year** | **Link** | **Notes** |
+|-----------|-------------|----------|---------|---------|
+| [A Dynamic Equilibrium Model for Automated Market Makers](https://arxiv.org/abs/2603.08603) | Chengqi Zang, Zhenghui Wang, Weitong Zhang | 2026 | arXiv | CFMM Equilibrium |
+| [Riemannian Geometry of Optimal Rebalancing in Dynamic Weight AMMs](https://arxiv.org/abs/2603.05326) | Matthew Willetts | 2026 | arXiv | TFMM |
+| [Optimal Routing across Constant Function Market Makers with Gas Fees](https://arxiv.org/abs/2603.02844) | Carlos Escudero, Felipe Lara, Miguel Sama | 2026 | arXiv | Routing Optimization |
+| [Pricing and hedging for liquidity provision in CFMM](https://arxiv.org/abs/2603.01344) | Jimmy Risk, Shen-Ning Tung, Tai-Ho Wang | 2026 | arXiv | CFMM Pricing |
+| [Partially Active Automated Market Makers](https://arxiv.org/abs/2602.09887) | Sunghun Ko | 2026 | arXiv | PA-AMM Design |
+| [Pools as Portfolios: Observed arbitrage efficiency & LVR analysis](https://arxiv.org/abs/2602.22069) | Matthew Willetts, Christian Harrington | 2026 | arXiv | Dynamic Weight AMM |
+| [Defensive Rebalancing for Automated Market Makers](https://arxiv.org/abs/2601.19950) | Sam Devorsetz, Maurice Herlihy | 2026 | arXiv | CFMM Protection |
+| [Automated Market Making for Energy Sharing](https://arxiv.org/abs/2512.24432) | Michele Fabi, Viraj Nadkarni, Leonardo Leone, Matheus X. V. Ferreira | 2025 | arXiv | Energy Markets |
+| [Automated Market Making for Goods with Perishable Utility](https://arxiv.org/abs/2511.16357) | Chengqi Zang, Gabriel P. Andrade, Oğuzhan Ersoy | 2025 | arXiv | Compute Markets |
+| [Improving DeFi Accessibility through Efficient Liquidity Provisioning with DRL](https://arxiv.org/abs/2501.07508) | Haonan Xu, Alessio Brini | 2025 | arXiv | Uniswap v3, PPO |
+
+---
+
+## 12. arXiv Preprints & Classic Works
+
+### Traditional Market Maker (2020-2024)
 
 | **Paper** | **Authors** | **Year** | **arXiv ID** | **Notes** |
 |-----------|-------------|----------|-------------|---------|
-| [Do designated market makers provide liquidity during downward extreme price movements?](https://arxiv.org/abs/2602.01817) | Mario Bellia, Kim Christensen, Aleksey Kolokolov, Loriana Pelizzon, Roberto Renò | 2026 | 2602.01817 | Journal of Financial Markets |
-| [FX Market Making with Internal Liquidity](https://arxiv.org/abs/2512.04603) | Alexander Barzykin, Robert Boyce, Eyal Neuman | 2025 | 2512.04603 | FX Markets |
-| [Option market making with hedging-induced market impact](https://arxiv.org/abs/2511.02518) | Paulin Aubert, Etienne Chevalier, Vathana Ly Vath | 2025 | 2511.02518 | Option Market |
-| [Multi-Agent Reinforcement Learning for Market Making: Competition without Collusion](https://arxiv.org/abs/2510.25929) | Ziyi Wang, Carmine Ventre, Maria Polukarov | 2025 | 2510.25929 | Multi-Agent RL |
-| [When AI Trading Agents Compete: Adverse Selection of Meta-Orders by RL-Based Market Making](https://arxiv.org/abs/2510.27334) | Ali Raza Jafree, Konark Jain, Nick Firoozye | 2025 | 2510.27334 | Hawkes LOB Model |
-| [An Impulse Control Approach to Market Making in a Hawkes LOB Market](https://arxiv.org/abs/2510.26438) | Konark Jain, Nick Firoozye, Jonathan Kochems, Philip Treleaven | 2025 | 2510.26438 | PPO with Self-Imitation |
-| [Reinforcement Learning-Based Market Making as a Stochastic Control on Non-Stationary LOB Dynamics](https://arxiv.org/abs/2509.12456) | Rafael Zimmer, Oswaldo Luiz do Valle Costa | 2025 | 2509.12456 | PPO Algorithm |
-| [Market Making Strategies with Reinforcement Learning](https://arxiv.org/abs/2507.18680) | Óscar Fernández Vicente | 2025 | 2507.18680 | PhD Thesis |
-| [To Hedge or Not to Hedge: Optimal Strategies for Stochastic Trade Flow Management](https://arxiv.org/abs/2503.02496) | Philippe Bergault, Olivier Guéant, Hamza Bodor | 2025 | 2503.02496 | Almgren-Chriss Framework |
 | [Market Making with Exogenous Competition](https://arxiv.org/abs/2407.17393) | Robert Boyce, Martin Herdegen, Leandro Sánchez-Betancourt | 2024 | 2407.17393 | Competition Model |
 | [Modelling Opaque Bilateral Market Dynamics in Financial Trading](https://arxiv.org/abs/2405.02849) | Alicia Vidler, Toby Walsh | 2024 | 2405.02849 | OTC Market |
-| [IMM: An Imitative Reinforcement Learning Approach with Predictive Representation Learning for Automatic Market Making](https://arxiv.org/abs/2308.08918) | Hui Niu, Siyuan Li, Jiahao Zheng, Zhouchi Lin, Jian Li, Jian Guo, Bo An | 2023 | 2308.08918 | Imitation Learning |
+| [IMM: An Imitative RL Approach for Automatic Market Making](https://arxiv.org/abs/2308.08918) | Hui Niu, Siyuan Li, Jiahao Zheng, et al. | 2023 | 2308.08918 | Imitation Learning |
 | [Over-the-Counter Market Making via Reinforcement Learning](https://arxiv.org/abs/2307.01816) | Zhou Fang, Haiqing Xu | 2023 | 2307.01816 | OTC Market |
 | [Option Market Making via Reinforcement Learning](https://arxiv.org/abs/2307.01814) | Zhou Fang, Haiqing Xu | 2023 | 2307.01814 | Option Market |
-| [ZeroSwap: Data-driven Optimal Market Making in DeFi](https://arxiv.org/abs/2310.09413) | Viraj Nadkarni, Jiachen Hu, Ranvir Rana, Chi Jin, Sanjeev Kulkarni, Pramod Viswanath | 2023 | 2310.09413 | DeFi Market Making |
-| [Market Making via Reinforcement Learning in China Commodity Market](https://arxiv.org/abs/2205.08936) | Junshu Jiang, Thomas Dierckx, Duxiang Xiao, Wim Schoutens | 2022 | 2205.08936 | China Commodity Market |
-| [Equitable Marketplace Mechanism Design](https://arxiv.org/abs/2209.15418) | Kshama Dwarakanath, Svitlana S Vyetrenko, Tucker Balch | 2022 | 2209.15418 | Marketplace Design |
+| [ZeroSwap: Data-driven Optimal Market Making in DeFi](https://arxiv.org/abs/2310.09413) | Viraj Nadkarni, Jiachen Hu, et al. | 2023 | 2310.09413 | DeFi Market Making |
+| [Market Making via Reinforcement Learning in China Commodity Market](https://arxiv.org/abs/2205.08936) | Junshu Jiang, Thomas Dierckx, Duxiang Xiao, Wim Schoutens | 2022 | 2205.08936 | China Commodity |
+| [Equitable Marketplace Mechanism Design](https://arxiv.org/abs/2209.15418) | Kshama Dwarakanath, Svitlana S. Vyetrenko, Tucker Balch | 2022 | 2209.15418 | Marketplace Design |
+| [Predictive Crypto-Asset AMM Architecture for DeFi using DRL](https://arxiv.org/abs/2211.01346) | Tristan Lim | 2022 | 2211.01346 | LSTM + Q-Learning |
+| [Robust Market Making via Adversarial Reinforcement Learning](https://arxiv.org/abs/2003.01820) | Thomas Spooner, Rahul Savani | 2020 | 2003.01820 | Adversarial RL |
 
-### Automated Market Makers (AMM/DeFi)
+### Classic Works (Before 2020)
 
 | **Paper** | **Authors** | **Year** | **arXiv ID** | **Notes** |
 |-----------|-------------|----------|-------------|---------|
-| [A Dynamic Equilibrium Model for Automated Market Makers](https://arxiv.org/abs/2603.08603) | Chengqi Zang, Zhenghui Wang, Weitong Zhang | 2026 | 2603.08603 | CFMM Equilibrium |
-| [Riemannian Geometry of Optimal Rebalancing in Dynamic Weight Automated Market Makers](https://arxiv.org/abs/2603.05326) | Matthew Willetts | 2026 | 2603.05326 | TFMM |
-| [Optimal Routing across Constant Function Market Makers with Gas Fees](https://arxiv.org/abs/2603.02844) | Carlos Escudero, Felipe Lara, Miguel Sama | 2026 | 2603.02844 | Routing Optimization |
-| [Pricing and hedging for liquidity provision in Constant Function Market Making](https://arxiv.org/abs/2603.01344) | Jimmy Risk, Shen-Ning Tung, Tai-Ho Wang | 2026 | 2603.01344 | CFMM Pricing |
-| [Partially Active Automated Market Makers](https://arxiv.org/abs/2602.09887) | Sunghun Ko | 2026 | 2602.09887 | PA-AMM Design |
-| [Pools as Portfolios: Observed arbitrage efficiency & LVR analysis of dynamic weight AMMs](https://arxiv.org/abs/2602.22069) | Matthew Willetts, Christian Harrington | 2026 | 2602.22069 | Dynamic Weight AMM |
-| [Defensive Rebalancing for Automated Market Makers](https://arxiv.org/abs/2601.19950) | Sam Devorsetz, Maurice Herlihy | 2026 | 2601.19950 | CFMM Protection |
-| [ASAS-BridgeAMM: Trust-Minimized Cross-Chain Bridge AMM with Failure Containment](https://arxiv.org/abs/2601.12434) | Shengwei You, Aditya Joshi, Andrey Kuehlkamp, Jarek Nabrzyski | 2026 | 2601.12434 | Cross-Chain AMM |
-| [Automated Liquidity: Market Impact, Cycles, and De-pegging Risk](https://arxiv.org/abs/2601.11375) | B. K. Meister | 2026 | 2601.11375 | DeFi Analysis |
-| [Automated Market Making for Energy Sharing](https://arxiv.org/abs/2512.24432) | Michele Fabi, Viraj Nadkarni, Leonardo Leone, Matheus X. V. Ferreira | 2025 | 2512.24432 | Energy Markets |
-| [Automated Market Making for Goods with Perishable Utility](https://arxiv.org/abs/2511.16357) | Chengqi Zang, Gabriel P. Andrade, Oğuzhan Ersoy | 2025 | 2511.16357 | Compute Markets |
-| [Predictive Crypto-Asset Automated Market Making Architecture for DeFi using Deep Reinforcement Learning](https://arxiv.org/abs/2211.01346) | Tristan Lim | 2022 | 2211.01346 | LSTM + Q-Learning |
-| [Improving DeFi Accessibility through Efficient Liquidity Provisioning with Deep Reinforcement Learning](https://arxiv.org/abs/2501.07508) | Haonan Xu, Alessio Brini | 2025 | 2501.07508 | Uniswap v3, PPO |
+| [Market making and incentives design in the presence of a dark pool: a deep RL approach](https://arxiv.org/abs/1912.01129) | Bastien Baldacci, Iuliia Manziuk, Thibaut Mastrolia, Mathieu Rosenbaum | 2019 | 1912.01129 | Dark Pool, Deep RL |
+| [Deep Reinforcement Learning in Cryptocurrency Market Making](https://arxiv.org/abs/1911.08647) | Jonathan Sadighian | 2019 | 1911.08647 | Cryptocurrency |
+| [Reinforcement Learning for Market Making in a Multi-agent Dealer Market](https://arxiv.org/abs/1911.05892) | Sumitra Ganesh, Nelson Vadori, Mengda Xu, Hua Zheng, Prashant Reddy, Manuela Veloso | 2019 | 1911.05892 | Multi-Agent RL, AAMAS |
+| [Deep RL for market making in corporate bonds: beating the curse of dimensionality](https://arxiv.org/abs/1910.13205) | Olivier Guéant, Iuliia Manziuk | 2019 | 1910.13205 | Corporate Bonds |
 
 ---
 
@@ -153,10 +174,12 @@
 
 | Conference | # Papers | Years | Key Topics |
 |-----------|----------|-------|-----------|
-| **AAMAS** | 1 | 2026 | Multi-Agent RL |
-| **ACM ICAIF** | 4 | 2021-2025 | RL for Market Making |
-| **arXiv** | 25+ | 2022-2026 | Market Maker, AMM |
-| **Total** | **30+** | 2021-2026 | Market Maker-focused |
+| **AAMAS** | 2 | 2020-2026 | Multi-Agent RL |
+| **ACM ICAIF** | 5 | 2021-2025 | RL for Market Making |
+| **arXiv (2025-2026)** | 20+ | 2025-2026 | Market Maker, AMM |
+| **arXiv (2020-2024)** | 10+ | 2020-2024 | RL, DRL, Multi-Agent |
+| **Classic Works** | 4 | 2019 | Deep RL Foundations |
+| **Total** | **40+** | 2019-2026 | Market Maker-focused |
 
 ---
 
